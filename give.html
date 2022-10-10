@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <script src="myscripts.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Volunteer Log in</title>
+    <style>
+        .te{
+            color: white;
+        }
+        .tab{
+            background-color: rgb(0, 0, 0);
+        }
+        .but {
+           
+           border-radius: 14px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+margin-top: 10%;
+margin-bottom: 10%;
+width:100px;
+height: 30px;
+
+       }
+       .text{
+        font-size: 20px;
+      text-align: center;
+      text-decoration: none;
+      
+    }
+    .tab2{
+        background-color:rgb(119, 239, 239);
+        border-radius: 13px;
+        width: 30%;
+        height: 60px;
+    }
+    </style>
+</head>
+<body class="tab">
+<table align="center">
+    <tr>
+        <td>
+            <h1 class="te">
+                Volunteer Log in!!
+            </h1>
+        </td>
+    </tr>
+</table>
+    <table border="2" align="center" class="tab2" >
+        <tr>
+            <td colspan="2" align=center class="text">
+                Login page
+            </td>
+        </tr>
+        <tr>
+            <td class="text">
+               Username
+            </td>
+            <td>
+                <input type="text" id="txtUser"/>
+            </tr>
+            <tr>
+                <td class="text"> 
+                   Password
+                </td>
+                <td>
+                    <input type="password" id="txtPass"/>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" id="nuttonLogin" value="Login" class="but" onclick="work()"/>
+                    </td>
+                    <td>
+                        <input type="button" id="nuttonClear" value="Clear" class="but"/>
+                    </tr>
+                
+    </table>
+</body>
+</html>
